@@ -5,8 +5,8 @@ Official repository of the Bioinformatics Short Course - Decoding (Meta)genomes 
 > [!IMPORTANT]
 > It is recommended that participants arrive with all the required programs installed properly. Carefully reading this GitHub page is also recommended.
 
-# Before arriving to the short course
-# 01 Programs installation
+# 01 Before arriving to the short course
+# Programs installation
 
 For Windows users:
 Download Ubuntu subsystem for Windows - directly from the Microsoft store or from the official website.
@@ -51,4 +51,11 @@ conda config --add channels bioconda
 Or follow the instructions here:
 + [Windows/macOS miniconda installation](https://www.anaconda.com/docs/getting-started/miniconda/install#macos-linux-installation)
 
-https://github.com/medema-group/BiG-SCAPE/wiki/01.-Installing-and-Running-BiG-SCAPE
+# 02 Getting started at this workshop
+
+If you have succssefully completed all the steps above, now you are ready to get started installing this short course programs.
+
+ + Check here the first day session in antiSMASH and BiG-SCAPE and the installation instructions for [BiG-SCAPE](https://github.com/medema-group/BiG-SCAPE/wiki/01.-Installing-and-Running-BiG-SCAPE).
+
++ Check here the instalattion instructions for [CORASON](https://bigscape-corason.secondarymetabolites.org/installation/).
+
