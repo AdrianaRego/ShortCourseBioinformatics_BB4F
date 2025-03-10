@@ -6,7 +6,7 @@ Official repository of the Bioinformatics Short Course - Decoding (Meta)genomes 
 > It is recommended that participants arrive with all the required programs installed properly. Carefully reading this GitHub page is also recommended.
 
 # 01 Before arriving to the short course
-# Programs installation
+# Software Prerequisites
 
 For Windows users:
 Download Ubuntu subsystem for Windows - directly from the Microsoft store or from the official website.
@@ -53,7 +53,7 @@ Or follow the instructions here:
 
 # 02 Getting started at this workshop
 
-If you have successfully completed all the steps above, now you are ready to get started installing the required programs for the lectures.
+If you have successfully completed all the steps above, now you are ready to get started installing the required programs for the hans-on sessions.
 
  + Check here the installation instructions for [BiG-SCAPE](https://github.com/medema-group/BiG-SCAPE/wiki/01.-Installing-and-Running-BiG-SCAPE).
 
