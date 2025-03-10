@@ -10,39 +10,41 @@ Official repository of the Bioinformatics Short Course - Decoding (Meta)genomes 
 
 For Windows users:
 Download Ubuntu subsystem for Windows - directly from the Microsoft store or from the official website.
-+ [Windows]([(https://ubuntu.com/desktop/wsl)]
++ [Windows](https://ubuntu.com/desktop/wsl)
 
-#Python & Conda environment
+#  Python and Conda environment
 
 Check if you already have python installed. You  can do so by typing `python` in your terminal.
 
 Otherwise, install python. Type in your terminal:
 ```
-sudo apt update && upgrade
+sudo apt update
 ```
 ```
-sudo apt install python3 python3-pip ipython3
+sudo apt install python3 python3-pip
 ```
 
-Setting up conda
-
+#  Setting up conda
 In your terminal type:
-+ [Windows/macOS miniconda installation](https://www.anaconda.com/docs/getting-started/miniconda/install#macos-linux-installation)
 
+```
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
-
+```
+```
 bash Miniconda3-latest-Linux-x86_64.sh
+```
++ press ENTER, scroll down, type in ‘yes’
 
-press ENTER, scroll down, type in ‘yes’
++press ENTER
 
-press ENTER
-
-type in yes
++type in yes
 
 Add conda channels
 conda config --add channels defaults
 conda config --add channels conda-forge
 conda config --add channels bioconda
 
+Or follow the instructions here:
++ [Windows/macOS miniconda installation](https://www.anaconda.com/docs/getting-started/miniconda/install#macos-linux-installation)
 
 https://github.com/medema-group/BiG-SCAPE/wiki/01.-Installing-and-Running-BiG-SCAPE
