@@ -57,5 +57,5 @@ If you have successfully completed all the steps above, now you are ready to get
 
  + Check here the installation instructions for [BiG-SCAPE](https://github.com/medema-group/BiG-SCAPE/wiki/01.-Installing-and-Running-BiG-SCAPE).
 
-+ Check here the instalattion instructions for [CORASON](https://bigscape-corason.secondarymetabolites.org/installation/).
++ Check here the installation instructions for [CORASON](https://bigscape-corason.secondarymetabolites.org/installation/).
 
