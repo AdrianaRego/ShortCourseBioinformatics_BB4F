@@ -34,15 +34,19 @@ wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 bash Miniconda3-latest-Linux-x86_64.sh
 ```
 + press ENTER, scroll down, type in ‘yes’
-
-+press ENTER
-
-+type in yes
++ press ENTER
++ type in yes
 
 Add conda channels
+```
 conda config --add channels defaults
+```
+```
 conda config --add channels conda-forge
+```
+```
 conda config --add channels bioconda
+```
 
 Or follow the instructions here:
 + [Windows/macOS miniconda installation](https://www.anaconda.com/docs/getting-started/miniconda/install#macos-linux-installation)
