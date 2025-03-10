@@ -9,30 +9,26 @@ Official repository of the Bioinformatics Short Course - Decoding (Meta)genomes 
 # 01 Programs installation
 
 For Windows users:
-Download Ubuntu subsystem for windows - directly from the Microsoft store or from the official website.
-+ [Windows]([https://www.python.org/downloads/windows/](https://ubuntu.com/desktop/wsl).
+Download Ubuntu subsystem for Windows - directly from the Microsoft store or from the official website.
++ [Windows]([(https://ubuntu.com/desktop/wsl)]
 
 #Python & Conda environment
 
 Check if you already have python installed. You  can do so by typing `python` in your terminal.
 
-Otherwise, install python from here:
+Otherwise, install python. Type in your terminal:
+```
+sudo apt update && upgrade
+```
+```
+sudo apt install python3 python3-pip ipython3
+```
 
-Familiarize yourself with unix (here and/or here) and conda.
-
-If you do not already have an ssh client as part of the operating system (e.g., if you have a Windows machine), download a third party software such as one of the following:
-
-MobaXterm
-PuTTY
-Cygwin
-For file transfer on Windows, we recommend downloading winscp
-Getting started at the workshop
-Open your ssh client and connect to Cousteau (the ETH teaching server)
-Click for instructions:
 Setting up conda
-Click for instructions:
 
 In your terminal type:
++ [Windows/macOS miniconda installation](https://www.anaconda.com/docs/getting-started/miniconda/install#macos-linux-installation)
+
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 
 bash Miniconda3-latest-Linux-x86_64.sh
@@ -43,13 +39,6 @@ press ENTER
 
 type in yes
 
-close and reopen session (exit then ssh cousteau)
-
-rm Miniconda3-latest-Linux-x86_64.sh
-
-Install should take ~5min
-
-Log out and log in again
 Add conda channels
 conda config --add channels defaults
 conda config --add channels conda-forge
