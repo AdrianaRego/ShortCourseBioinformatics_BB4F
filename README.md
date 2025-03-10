@@ -51,7 +51,7 @@ conda config --add channels bioconda
 Or follow the instructions here:
 + [Windows/macOS miniconda installation](https://www.anaconda.com/docs/getting-started/miniconda/install#macos-linux-installation)
 
-# 02 Getting started at this workshop
+# 02 Getting started at this ahort course
 
 If you have successfully completed all the steps above, now you are ready to get started installing the required programs for the hans-on sessions.
 
