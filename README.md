@@ -5,7 +5,8 @@ Official repository of the Bioinformatics Short Course - Decoding (Meta)genomes 
 > [!IMPORTANT]
 > It is recommended that participants arrive with all the required programs installed properly. Carefully reading this GitHub page is also recommended.
 
-# Python & Conda environment
+# 01 Programs installation
+#Python & Conda environment
 
 Check if you already have python installed. You  can do so by typing `python` in your terminal.
 
