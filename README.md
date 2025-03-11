@@ -72,7 +72,8 @@ sudo apt-get install curl
 ```
 CORASON is run using Docker, a container platform provider available for multiple operating systems. 
 Let's start with linux minimal docker installation:
-```curl -fsSL https://get.docker.com/ | sh
+```
+curl -fsSL https://get.docker.com/ | sh
 ```
 Then type (without brackets):
 ```
