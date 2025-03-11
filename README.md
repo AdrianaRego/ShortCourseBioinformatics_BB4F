@@ -58,5 +58,42 @@ If you have successfully completed all the steps above, now you are ready to get
 
  + Check here the installation instructions for [BiG-SCAPE](https://github.com/medema-group/BiG-SCAPE/wiki/01.-Installing-and-Running-BiG-SCAPE).
 
-+ Check here the installation instructions for [CORASON](https://bigscape-corason.secondarymetabolites.org/installation/).
++ Check here the installation instructions for CORASON.
 
+
+Check if you already have python installed. You  can do so by typing `curl` in your terminal.
+
+Otherwise, install curl. Type in your terminal:
+```
+sudo apt-get update
+```
+```
+sudo apt-get install curl
+```
+CORASON is run using Docker, a container platform provider available for multiple operating systems. 
+Let's start with linux minimal docker installation:
+```curl -fsSL https://get.docker.com/ | sh
+```
+Then type (without brackets):
+```
+sudo usermod -aG docker [your username]
+```
+Then log out from your session (restart your machine) and get back in into your user session before the next step. Test the docker installation:
+
+```
+docker run hello-world
+```
+After successfully installing docker, we can install CORASON:
+```
+mkdir ~/bin    # not required if you already have that
+```
+curl -q https://raw.githubusercontent.com/nselem/corason/master/run_corason > ~/bin/run_corason
+```
+```
+chmod a+x ~/bin/run_corason
+```
+```
+~/bin/run_corason
+```
+
+More information in [CORASON](https://bigscape-corason.secondarymetabolites.org/installation/) website.
