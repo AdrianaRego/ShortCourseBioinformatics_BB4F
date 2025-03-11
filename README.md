@@ -61,7 +61,7 @@ If you have successfully completed all the steps above, now you are ready to get
 + Check here the installation instructions for CORASON.
 
 
-Check if you already have python installed. You  can do so by typing `curl` in your terminal.
+Check if you already have curl installed. You  can do so by typing `curl` in your terminal.
 
 Otherwise, install curl. Type in your terminal:
 ```
@@ -87,6 +87,7 @@ docker run hello-world
 After successfully installing docker, we can install CORASON:
 ```
 mkdir ~/bin    # not required if you already have that
+```
 ```
 curl -q https://raw.githubusercontent.com/nselem/corason/master/run_corason > ~/bin/run_corason
 ```
