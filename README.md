@@ -1,6 +1,6 @@
 # ShortCourseBioinformatics_BB4F
 Official repository of the Bioinformatics Short Course - Decoding (Meta)genomes for Natural Products Discovery, an initiative of the BlueBio4Future ERA Chair (March 17th to March 19th, 2025, Porto). 
-
+You can find information about the researchers who will lead the course, targeting cutting-edge tools and techniques used in bioinformatics pipelines for natural product discovery, in the course [website](https://bb4f.ciimar.up.pt/short-course-in-bioinformatics/).
 
 > [!IMPORTANT]
 > It is recommended that participants arrive with all the required programs installed properly. Carefully reading this GitHub page is also recommended.
