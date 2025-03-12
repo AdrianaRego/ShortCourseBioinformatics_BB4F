@@ -58,7 +58,7 @@ If you have successfully completed all the steps above, now you are ready to get
 
  + Check here the installation instructions for [BiG-SCAPE](https://github.com/medema-group/BiG-SCAPE/wiki/01.-Installing-and-Running-BiG-SCAPE).
 
-+ Check here the installation instructions for CORASON.
++ Check below the installation instructions for CORASON:
 
 
 Check if you already have curl installed. You  can do so by typing `curl` in your terminal.
