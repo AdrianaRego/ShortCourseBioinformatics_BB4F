@@ -11,7 +11,7 @@ Time         | Topic         | Instructor    |
    --------- | ------------- | ------------- |
    10h15     | Introduction to Bioinformatics in Natural Products Discovery  | Adriana Rego  |    
   11h        | NLP/AI for Functional Annotation of Enzymes  | Leandro Pereira |
-12h/14h	    | antiSMASH and BiG-SCAPE workflows | Catarina Loureiro
+12h/14h	    | [antiSMASH and BiG-SCAPE workflows](https://github.com/CatarinaCarolina/Genome-Mining-2025?tab=readme-ov-file) | Catarina Loureiro
 
 > [!IMPORTANT]
 > It is recommended that participants arrive with all the required programs installed properly. Carefully reading this GitHub page is also recommended.
