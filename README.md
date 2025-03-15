@@ -6,13 +6,12 @@ You can find information about the researchers who will lead the course, targeti
 Find the course agenda [here](https://github.com/AdrianaRego/ShortCourseBioinformatics_BB4F/blob/main/agenda_shortcourse%20bioinformatics_update_15.03.25.pdf).
 
 # Schedule
+ Day 1 - 17th 
 Time         | Topic         | Instructor    |
    --------- | ------------- | ------------- |
-   10h15     | Introduction to Bioinformatics in Natural Products Discovery  | Adriana Rego  | 
-   --------- | ------------- | ------------- |      
-  11h    | NLP/AI for Functional Annotation of Enzymes  | Leandro Pereira |
-  --------- | ------------- | ------------- |	
-12h/14h	 antiSMASH and BiG-SCAPE workflows | Catarina Loureiro
+   10h15     | Introduction to Bioinformatics in Natural Products Discovery  | Adriana Rego  |    
+  11h        | NLP/AI for Functional Annotation of Enzymes  | Leandro Pereira |
+12h/14h	    | antiSMASH and BiG-SCAPE workflows | Catarina Loureiro
 
 > [!IMPORTANT]
 > It is recommended that participants arrive with all the required programs installed properly. Carefully reading this GitHub page is also recommended.
