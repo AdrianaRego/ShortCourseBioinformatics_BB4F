@@ -3,6 +3,7 @@ Official repository of the Bioinformatics Short Course - Decoding (Meta)genomes 
 
 You can find information about the researchers who will lead the course, targeting cutting-edge tools and techniques used in bioinformatics pipelines for natural product discovery, in the course [website](https://bb4f.ciimar.up.pt/short-course-in-bioinformatics/).
 
+Find the course agenda [here](https://github.com/AdrianaRego/ShortCourseBioinformatics_BB4F/blob/main/agenda_shortcourse%20bioinformatics_update_15.03.25.pdf).
 > [!IMPORTANT]
 > It is recommended that participants arrive with all the required programs installed properly. Carefully reading this GitHub page is also recommended.
 
