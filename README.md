@@ -15,14 +15,14 @@ Download Ubuntu subsystem for Windows - directly from the Microsoft store or fro
 
 #  Python and Conda environment
 
-Check if you already have python installed. You  can do so by typing `python` in your terminal.
+Check if you already have python installed. You  can do so by typing `python3` in your terminal.
 
 Otherwise, install python. Type in your terminal:
 ```
 sudo apt update
 ```
 ```
-sudo apt install python3 python3-pip
+sudo apt install python3
 ```
 
 #  Setting up conda
@@ -38,16 +38,6 @@ bash Miniconda3-latest-Linux-x86_64.sh
 + press ENTER
 + type in yes
 
-Add conda channels
-```
-conda config --add channels defaults
-```
-```
-conda config --add channels conda-forge
-```
-```
-conda config --add channels bioconda
-```
 
 Or follow the instructions here:
 + [Windows/macOS miniconda installation](https://www.anaconda.com/docs/getting-started/miniconda/install#macos-linux-installation)
