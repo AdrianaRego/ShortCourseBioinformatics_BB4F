@@ -9,7 +9,7 @@ Find the course agenda [here](https://github.com/AdrianaRego/ShortCourseBioinfor
  Day 1 - 17th 
 Time         | Topic         | Instructor    |
    --------- | ------------- | ------------- |
-   10h15     | Introduction to Bioinformatics in Natural Products Discovery  | Adriana Rego  |    
+   10h15     |  [Introduction to Bioinformatics in Natural Products Discovery](https://github.com/AdrianaRego/ShortCourseBioinformatics_BB4F/blob/main/Introduction_bioinformatics_NPs.pdf)  | Adriana Rego  |    
   11h        | NLP/AI for Functional Annotation of Enzymes  | Leandro Pereira |
 12h/14h	     |antiSMASH and BiG-SCAPE workflows [Hands-on session](https://github.com/CatarinaCarolina/Genome-Mining-2025?tab=readme-ov-file) | Catarina Loureiro
 16h          |GNPS and MicrobeMASST | Mauricio Caraballo
