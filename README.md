@@ -12,7 +12,7 @@ Time         | Topic         | Instructor    |
    10h15     |  [Introduction to Bioinformatics in Natural Products Discovery](https://github.com/AdrianaRego/ShortCourseBioinformatics_BB4F/blob/main/Introduction_bioinformatics_NPs.pdf)  | Adriana Rego  |    
   11h        | NLP/AI for Functional Annotation of Enzymes  | Leandro Pereira |
 12h/14h	     |antiSMASH and BiG-SCAPE workflows [Hands-on session](https://github.com/CatarinaCarolina/Genome-Mining-2025?tab=readme-ov-file) | Catarina Loureiro
-16h          |[GNPS and MicrobeMASST](https://docs.google.com/presentation/d/1E4EZYhA7jc0fRYiGQpEI2GeZAwvSY8J7vxOF9a15u80/edit#slide=id.g29070bedc82_0_126) Link Documents[(https://docs.google.com/document/d/1mX5aPMZDAzsgU2ARXYCndQYs1PtAeb3KkrCJZ4xgQZQ/edit?tab=t.0)] | Mauricio Caraballo
+16h          |[GNPS and MicrobeMASST](https://docs.google.com/presentation/d/1E4EZYhA7jc0fRYiGQpEI2GeZAwvSY8J7vxOF9a15u80/edit#slide=id.g29070bedc82_0_126) [Link Documents](https://docs.google.com/document/d/1mX5aPMZDAzsgU2ARXYCndQYs1PtAeb3KkrCJZ4xgQZQ/edit?tab=t.0)] | Mauricio Caraballo
 
 > [!IMPORTANT]
 > It is recommended that participants arrive with all the required programs installed properly. Carefully reading this GitHub page is also recommended.
