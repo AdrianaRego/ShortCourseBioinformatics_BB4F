@@ -66,10 +66,9 @@ This shows a table where each potential domain candidate has been given a unique
 The table columns are sortable by each column header. You can DOWNLOAD the table of nucleotide match locations in tab-delimited format (click to view, right click to save as and download)
 
 Output selected sequences in fasta format
-● Select which trimmed query domain hits or select all to output inFASTA format
+Select which trimmed query domain hits or select all to output inFASTA format
 
-
-●  GET TRIMMED SEQS
+GET TRIMMED SEQS
 This is a very useful output for you to continue working with the KS or C domains that NaPDoS2 detected & classified. You can copy
 and paste the trimmed query KS or C domain hits into a new file, a sequencing editing program, etc.
 
