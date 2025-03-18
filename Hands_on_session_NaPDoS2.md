@@ -42,7 +42,7 @@ If you clicked “VIEW ALL MATCHES” or “VIEW A SUBSET”, you will view the 
 The table can be sorted by each of the column values by clicking on the column header; the table scrolls up and down and if your query hit names are long, the table scrolls left to right. You can DOWNLOAD the results table (right click, save as to download; click to view) in a tab-delimited format.
 
 The scrollable table lists the following information:
- cand_id: name of the domain hit, which is the name of the sequence in the query FASTA file before spaces and appended with location
+cand_id: name of the domain hit, which is the name of the sequence in the query FASTA file before spaces and appended with location
 information of where the domain hit was found
 
 database match: the name of the domain in the NaPDoS2 database that the query hit is closest to
