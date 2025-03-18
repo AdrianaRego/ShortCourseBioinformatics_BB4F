@@ -8,9 +8,8 @@ Analyze a single bacterial genome Salinispora tropica CNB-440 to uncover the uni
 
  1 - Start by downloading the [Salinispora tropica CNB-440 genome](https://github.com/AdrianaRego/ShortCourseBioinformatics_BB4F/blob/main/GCF_000016425.1_ASM1642v1_genomic.fna). 
  
-# 2 - Open NaPDoS2 and navigate to the “Run Analysis” tab. 
-Select “Domain Type: KS domains”.
-Since we are analyzing theSalinispora tropica CNB-440 “GCF_000016425.1_ASM1642v1_genomic.fna”: nucleic acid FASTA genome file, select “Query type: Nucleic acid sequences”. Click “Choose File” to upload your genome file.  Click on “Advanced Settings”. Here, you can change the BLASTP e-value cutoff and the Minimum alignment length. For this tutorial, we will use the default settings of BLASTP e-value cutoff of 1e-8 and Minimum alignment length of 200aa (600nt).
+2 - Open NaPDoS2 and navigate to the “Run Analysis” tab. 
+Select “Domain Type: KS domains”. Since we are analyzing the Salinispora tropica CNB-440 “GCF_000016425.1_ASM1642v1_genomic.fna”: nucleic acid FASTA genome file, select “Query type: Nucleic acid sequences”. Click “Choose File” to upload your genome file.  Click on “Advanced Settings”. Here, you can change the BLASTP e-value cutoff and the Minimum alignment length. For this tutorial, we will use the default settings of BLASTP e-value cutoff of 1e-8 and Minimum alignment length of 200aa (600nt).
 
 Click SEEK to be assigned a job ID and review the job analysis settings.
 
@@ -22,7 +21,7 @@ This table can be used to find the location of the KS domains in your nucleic ac
  
 To continue the analysis, click “CONTINUE ANALYSIS”
  
-# 3 - Select results display options for KSs that NaPDoS2 detected and classified
+3 - Select results display options for KSs that NaPDoS2 detected and classified
 
 The “Domain Classification Summary” page lists the total number of domains found from the number of sequences that were input. Clicking “VIEW ALL
 MATCHES” opens a new page with the hit table of all domains identified in the genome analysis.
@@ -40,41 +39,33 @@ The table can be sorted by each of the column values by clicking on the column h
 
 The scrollable table lists the following information:
 cand_id: name of the domain hit, which is the name of the sequence in the query FASTA file before spaces and appended with location
-information of where the domain hit was found (see below for details) database match: the name of the domain in the NaPDoS2 database that
-the query hit is closest to
+information of where the domain hit was found (see below for details) 
+database match: the name of the domain in the NaPDoS2 database that the query hit is closest to
 names include: BGCname_KS#_uniquetag
-BGC name: name of the BGC
-KS#: number KS in successive order from the BGC
-unique tag: abbreviation that is unique for every class/subclassification
+ BGC name: name of the BGC
+ KS#: number KS in successive order from the BGC
+ unique tag: abbreviation that is unique for every class/subclassification
+
 percent identity: percent identity that the query hit shares with the closets NaPDoS2 database match
 align length: alignment length that the query hit shares with the closest NaPDoS2 database match
 e-value: e-value of the query hit to the closest NaPDoS2 database match
-BGC match: name of the BGC of the closest NaPDoS2 database match to the query hit; click on the link to open a new page of the BGC card
-information
+
+BGC match: name of the BGC of the closest NaPDoS2 database match to the query hit; click on the link to open a new page of the BGC card information
+
 domain class: classification of the closest NaPDoS2 database match to the query hit - This is the classification of your query hit
+
 domain subclass: specific subclass of the closest NaPDoS2 database match to the query hit -  This is the complete specific subclass of your query hit (some classes do not have subclasses, ie “no subclass”)
 
 Here, you can also select specific domain hits to download or further analyze (select all to download or analyze all results). You have the follow options for downloading the data:
-■ View nucleotide coordinates for all trimmed domain candidates
-● **only an option if your query sequence was a nucleic acid file
-● This shows a table where each potential domain candidate has
-been given a unique candidate ID number, based on parent
-sequence id, reading frame number (1-6), gene number within the
-reading frame, and trimmed nucleotide start and stop coordinates
-within the reading frame.
-● The table columns are sortable by each column header. You can
-DOWNLOAD the table of nucleotide match locations in
-tab-delimited format (click to view, right click to save as and
-download)
+  View nucleotide coordinates for all trimmed domain candidates
+ ● **only an option if your query sequence was a nucleic acid file
+ 
+ This shows a table where each potential domain candidate has been given a unique candidate ID number, based on parent sequence id, reading frame number (1-6), gene number within the reading frame, and trimmed nucleotide start and stop coordinates within the reading frame.
+
+● The table columns are sortable by each column header. You canDOWNLOAD the table of nucleotide match locations in tab-delimited format (click to view, right click to save as and download)
+
 ■ Output selected sequences in fasta format
-● Select which trimmed query domain hits or select all to output in
-FASTA format
-○ **if your query was a nucleic acid, you have the option to
-output the query domain hits as either amino acid or
-nucleic acid
-○ **if your query was an amino acid protein, you only have
-the option to output the query domain hits as amino acid
-sequences
+● Select which trimmed query domain hits or select all to output inFASTA format
 
 
 # GET TRIMMED SEQS
