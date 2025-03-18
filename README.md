@@ -14,6 +14,15 @@ Time         | Topic         | Instructor    |
 12h/14h	     |antiSMASH and BiG-SCAPE workflows [Hands-on session](https://github.com/CatarinaCarolina/Genome-Mining-2025?tab=readme-ov-file) | Catarina Loureiro
 16h          |[GNPS and MicrobeMASST](https://docs.google.com/presentation/d/1E4EZYhA7jc0fRYiGQpEI2GeZAwvSY8J7vxOF9a15u80/edit#slide=id.g29070bedc82_0_126) [Link Documents](https://docs.google.com/document/d/1mX5aPMZDAzsgU2ARXYCndQYs1PtAeb3KkrCJZ4xgQZQ/edit?tab=t.0) | Mauricio Caraballo
 
+ Day 2 - 18th 
+Time         | Topic         | Instructor    |
+   --------- | ------------- | ------------- |
+   9h    |  Phylogenetic approaches for NPs discovery |  Hans Singh  |    
+  11h        | [Hands-on session BiG-SCAPE](https://github.com/CatarinaCarolina/Genome-Mining-2025?tab=readme-ov-file)  | Catarina Loureiro |
+14/15h30	    | Computational protein structure prediction, molecular docking | Arménio Barbosa
+16h          | EFI-SSN and Sequence-Based Functional Prediction in Enzyme Discovery | Raquel Castelo Branco
+
+
 > [!IMPORTANT]
 > It is recommended that participants arrive with all the required programs installed properly. Carefully reading this GitHub page is also recommended.
 
