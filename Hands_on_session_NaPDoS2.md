@@ -43,8 +43,9 @@ The table can be sorted by each of the column values by clicking on the column h
 
 The scrollable table lists the following information:
  cand_id: name of the domain hit, which is the name of the sequence in the query FASTA file before spaces and appended with location
-information of where the domain hit was found (see below for details) 
- database match: the name of the domain in the NaPDoS2 database that the query hit is closest to
+information of where the domain hit was found
+
+database match: the name of the domain in the NaPDoS2 database that the query hit is closest to
 
 names include: BGCname_KS#_uniquetag
  BGC name: name of the BGC
