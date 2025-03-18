@@ -48,9 +48,9 @@ information of where the domain hit was found
 database match: the name of the domain in the NaPDoS2 database that the query hit is closest to
 
 names include: BGCname_KS#_uniquetag
- BGC name: name of the BGC
- KS#: number KS in successive order from the BGC
- unique tag: abbreviation that is unique for every class/subclassification
+BGC name: name of the BGC
+KS#: number KS in successive order from the BGC
+unique tag: abbreviation that is unique for every class/subclassification
 
 percent identity: percent identity that the query hit shares with the closets NaPDoS2 database match
 align length: alignment length that the query hit shares with the closest NaPDoS2 database match
@@ -60,8 +60,8 @@ domain class: classification of the closest NaPDoS2 database match to the query 
 domain subclass: specific subclass of the closest NaPDoS2 database match to the query hit -  This is the complete specific subclass of your query hit (some classes do not have subclasses, ie “no subclass”)
 
 Here, you can also select specific domain hits to download or further analyze (select all to download or analyze all results). You have the follow options for downloading the data:
-  View nucleotide coordinates for all trimmed domain candidates
- This shows a table where each potential domain candidate has been given a unique candidate ID number, based on parent sequence id, reading frame number (1-6), gene number within the reading frame, and trimmed nucleotide start and stop coordinates within the reading frame.
+View nucleotide coordinates for all trimmed domain candidates
+This shows a table where each potential domain candidate has been given a unique candidate ID number, based on parent sequence id, reading frame number (1-6), gene number within the reading frame, and trimmed nucleotide start and stop coordinates within the reading frame.
 
 The table columns are sortable by each column header. You can DOWNLOAD the table of nucleotide match locations in tab-delimited format (click to view, right click to save as and download)
 
