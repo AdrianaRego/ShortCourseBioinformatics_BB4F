@@ -87,9 +87,9 @@ You can DOWNLOAD (click to view, right click to save as) the alignment file for 
 
 # 6 -  Construct tree (candidate domains + blast matches + reference domains)
 Select the query domain hits that you would like to build a tree with. You can either build a tree with: 
-● Closest database matches to your selected sequences, ie. - of selected queries + closest database references
-● All classified KS domains which would be the # of selected queries + all 414 NaPDoS2 database reference sequences.
-● The estimated time to calculate the trees is given, usually the time to complete the trees is much faster than estimated.
+Closest database matches to your selected sequences, ie. - of selected queries + closest database references
+All classified KS domains which would be the # of selected queries + all 414 NaPDoS2 database reference sequences.
+The estimated time to calculate the trees is given, usually the time to complete the trees is much faster than estimated.
 
 
 # 7 - Constructing a tree to estimate biosynthetic novelty of domain hits
@@ -97,7 +97,7 @@ Select the query domain hits that you would like to build a tree with. You can e
 Therefore, searching through the table, we see that there were 2 hits to the “salinosporamide_KS01_cisloading” and “salinosporamide_KS02_cisHybridKS”
 domains in our genome. We will select these 2 sequences to construct a tree.
 
-■ By clicking on the “salinosporamide” BGC, we can see that the salinosporamide BGC has 3 domains in the NaPDoS2 database, and by clicking the MIBiG ID that links to the complete BGC, we can see that the BGC only has these 3 domains. We are interested in the two KS domains.
+By clicking on the “salinosporamide” BGC, we can see that the salinosporamide BGC has 3 domains in the NaPDoS2 database, and by clicking the MIBiG ID that links to the complete BGC, we can see that the BGC only has these 3 domains. We are interested in the two KS domains.
 
 We want to put these 2 query KS domain hits into the context of the entire NaPDoS2 reference database. We’ll select the second option of building a tree with our query hits and all classified KS domains.
 
