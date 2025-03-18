@@ -23,6 +23,7 @@ Time         | Topic         | Instructor    |
 16h          | EFI-SSN and Sequence-Based Functional Prediction in Enzyme Discovery | Raquel Castelo Branco
 
 
+
 > [!IMPORTANT]
 > It is recommended that participants arrive with all the required programs installed properly. Carefully reading this GitHub page is also recommended.
 
