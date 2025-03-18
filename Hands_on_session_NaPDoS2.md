@@ -1,16 +1,16 @@
 # Hands-on session NaPDoS2
-This exercise corresponds to the tutorial example Genome tutorial A from the NaPDoS2 [documentation](https://npdomainseeker.sdsc.edu/napdos2/np2_documentation.pdf).
+This exercise corresponds to a tutorial example Genome from the NaPDoS2 [documentation](https://npdomainseeker.sdsc.edu/napdos2/np2_documentation.pdf).
 
-Genome tutorial objective
+# Genome tutorial objective
 Analyze a single bacterial genome Salinispora tropica CNB-440 to uncover the unique salC KS domain, which clades separately from other KS domains and thus likely represents a novel biosynthetic class of KS (as reported in Bauman et al. Nat Chem Biol. 2022[(https://pmc.ncbi.nlm.nih.gov/articles/PMC9058210/)]
+
 ![image](https://github.com/user-attachments/assets/565df2a7-240c-4553-a352-5950f2f7348e)
 
-1 - Start by downloading the [Salinispora tropica CNB-440 genome](https://github.com/AdrianaRego/ShortCourseBioinformatics_BB4F/blob/main/GCF_000016425.1_ASM1642v1_genomic.fna). 
- 2 - Open NaPDoS2 and navigate to the “Run Analysis” tab. Select “Domain Type: KS domains”.
-Since we are analyzing theSalinispora tropica CNB-440 “GCF_000016425.1_ASM1642v1_genomic.fna”: nucleic acid FASTA genome file, select “Query type: Nucleic acid sequences”.
-
-Click “Choose File” to upload your genome file.  Click on “Advanced Settings”. Here, you can change the BLASTP e-value cutoff
-and the Minimum alignment length. For this tutorial, we will use the default settings of BLASTP e-value cutoff of 1e-8 and Minimum alignment length of 200aa (600nt).
+# 1 - Start by downloading the [Salinispora tropica CNB-440 genome](https://github.com/AdrianaRego/ShortCourseBioinformatics_BB4F/blob/main/GCF_000016425.1_ASM1642v1_genomic.fna). 
+ 
+# 2 - Open NaPDoS2 and navigate to the “Run Analysis” tab. 
+Select “Domain Type: KS domains”.
+Since we are analyzing theSalinispora tropica CNB-440 “GCF_000016425.1_ASM1642v1_genomic.fna”: nucleic acid FASTA genome file, select “Query type: Nucleic acid sequences”. Click “Choose File” to upload your genome file.  Click on “Advanced Settings”. Here, you can change the BLASTP e-value cutoff and the Minimum alignment length. For this tutorial, we will use the default settings of BLASTP e-value cutoff of 1e-8 and Minimum alignment length of 200aa (600nt).
 
 Click SEEK to be assigned a job ID and review the job analysis settings.
 
