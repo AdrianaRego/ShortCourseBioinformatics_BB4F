@@ -102,9 +102,9 @@ By clicking on the “salinosporamide” BGC, we can see that the salinosporamid
 We want to put these 2 query KS domain hits into the context of the entire NaPDoS2 reference database. We’ll select the second option of building a tree with our query hits and all classified KS domains.
 
 The Tree results page has two options for viewing the calculated trees:
-■ Tree image (SVG format file), click DOWNLOAD to view, right click to save.
-● When viewing the tree, the query domain hits will have red circles of where they are placed in the tree.
-■ Newick format (plain text file), click DOWNLOAD to view, right click to save
-● This file format can be viewed in tree viewing programs like FigTree, iTol, TreeViewer, ETE Toolkit, etc.
+Tree image (SVG format file), click DOWNLOAD to view, right click to save.
+When viewing the tree, the query domain hits will have red circles of where they are placed in the tree.
+Newick format (plain text file), click DOWNLOAD to view, right click to save
+This file format can be viewed in tree viewing programs like FigTree, iTol, TreeViewer, ETE Toolkit, etc.
 
 
