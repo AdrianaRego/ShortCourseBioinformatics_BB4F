@@ -6,10 +6,14 @@ Analyze a single bacterial genome Salinispora tropica CNB-440 to uncover the uni
 
 ![image](https://github.com/user-attachments/assets/565df2a7-240c-4553-a352-5950f2f7348e)
 
- 1 - Start by downloading the [Salinispora tropica CNB-440 genome](https://github.com/AdrianaRego/ShortCourseBioinformatics_BB4F/blob/main/GCF_000016425.1_ASM1642v1_genomic.fna). 
+# 1 - Start by downloading the Salinispora tropica CNB-440 genome
+  [Salinispora tropica CNB-440 genome](https://github.com/AdrianaRego/ShortCourseBioinformatics_BB4F/blob/main/GCF_000016425.1_ASM1642v1_genomic.fna). 
  
-2 - Open NaPDoS2 and navigate to the “Run Analysis” tab. 
-Select “Domain Type: KS domains”. Since we are analyzing the Salinispora tropica CNB-440 “GCF_000016425.1_ASM1642v1_genomic.fna”: nucleic acid FASTA genome file, select “Query type: Nucleic acid sequences”. Click “Choose File” to upload your genome file.  Click on “Advanced Settings”. Here, you can change the BLASTP e-value cutoff and the Minimum alignment length. For this tutorial, we will use the default settings of BLASTP e-value cutoff of 1e-8 and Minimum alignment length of 200aa (600nt).
+# 2 - Open NaPDoS2 and navigate to the “Run Analysis” tab
+
+Select “Domain Type: KS domains”. Since we are analyzing the Salinispora tropica CNB-440 “GCF_000016425.1_ASM1642v1_genomic.fna”: nucleic acid FASTA genome file, select “Query type: Nucleic acid sequences”. 
+Click “Choose File” to upload your genome file.  
+Click on “Advanced Settings”. Here, you can change the BLASTP e-value cutoff and the Minimum alignment length. For this tutorial, we will use the default settings of BLASTP e-value cutoff of 1e-8 and Minimum alignment length of 200aa (600nt).
 
 Click SEEK to be assigned a job ID and review the job analysis settings.
 
@@ -21,7 +25,7 @@ This table can be used to find the location of the KS domains in your nucleic ac
  
 To continue the analysis, click “CONTINUE ANALYSIS”
  
-3 - Select results display options for KSs that NaPDoS2 detected and classified
+# 3 - Select results display options for KSs that NaPDoS2 detected and classified
 
 The “Domain Classification Summary” page lists the total number of domains found from the number of sequences that were input. Clicking “VIEW ALL
 MATCHES” opens a new page with the hit table of all domains identified in the genome analysis.
@@ -33,14 +37,15 @@ This is helpful if you only are interested in a specific subset type of domain�
 view the results of and click “VIEW A SUBSET”, which will open a new page with a table of only the classes/subclasses you selected.
 You can also “DOWNLOAD” the “Individual Domain Classes” table (click to view, right click and save as to download).
 
-4 -  Assess and download NaPDoS2 search results
+# 4 -  Assess and download NaPDoS2 search results
 If you clicked “VIEW ALL MATCHES” or “VIEW A SUBSET”, you will view the “Database Search Results” page, either for all hits in your query sequence or for a subset of hits of certain class/subclass that you selected.
 The table can be sorted by each of the column values by clicking on the column header; the table scrolls up and down and if your query hit names are long, the table scrolls left to right. You can DOWNLOAD the results table (right click, save as to download; click to view) in a tab-delimited format.
 
 The scrollable table lists the following information:
-cand_id: name of the domain hit, which is the name of the sequence in the query FASTA file before spaces and appended with location
+ cand_id: name of the domain hit, which is the name of the sequence in the query FASTA file before spaces and appended with location
 information of where the domain hit was found (see below for details) 
-database match: the name of the domain in the NaPDoS2 database that the query hit is closest to
+ database match: the name of the domain in the NaPDoS2 database that the query hit is closest to
+
 names include: BGCname_KS#_uniquetag
  BGC name: name of the BGC
  KS#: number KS in successive order from the BGC
@@ -49,30 +54,25 @@ names include: BGCname_KS#_uniquetag
 percent identity: percent identity that the query hit shares with the closets NaPDoS2 database match
 align length: alignment length that the query hit shares with the closest NaPDoS2 database match
 e-value: e-value of the query hit to the closest NaPDoS2 database match
-
 BGC match: name of the BGC of the closest NaPDoS2 database match to the query hit; click on the link to open a new page of the BGC card information
-
 domain class: classification of the closest NaPDoS2 database match to the query hit - This is the classification of your query hit
-
 domain subclass: specific subclass of the closest NaPDoS2 database match to the query hit -  This is the complete specific subclass of your query hit (some classes do not have subclasses, ie “no subclass”)
 
 Here, you can also select specific domain hits to download or further analyze (select all to download or analyze all results). You have the follow options for downloading the data:
   View nucleotide coordinates for all trimmed domain candidates
- ● **only an option if your query sequence was a nucleic acid file
- 
  This shows a table where each potential domain candidate has been given a unique candidate ID number, based on parent sequence id, reading frame number (1-6), gene number within the reading frame, and trimmed nucleotide start and stop coordinates within the reading frame.
 
-● The table columns are sortable by each column header. You canDOWNLOAD the table of nucleotide match locations in tab-delimited format (click to view, right click to save as and download)
+The table columns are sortable by each column header. You can DOWNLOAD the table of nucleotide match locations in tab-delimited format (click to view, right click to save as and download)
 
-■ Output selected sequences in fasta format
+Output selected sequences in fasta format
 ● Select which trimmed query domain hits or select all to output inFASTA format
 
 
-# GET TRIMMED SEQS
+●  GET TRIMMED SEQS
 This is a very useful output for you to continue working with the KS or C domains that NaPDoS2 detected & classified. You can copy
 and paste the trimmed query KS or C domain hits into a new file, a sequencing editing program, etc.
 
-# Output Alignment with closest database matches
+# 5 - Output Alignment with closest database matches
 Select alignment format (all alignments are created with MUSCLE as described here, but the alignment can be output in different
 formats suitable for many downstream applications):
 ○ FASTA (.fasta)
@@ -84,14 +84,14 @@ will include all closest NaPDoS2 database matches to all query hits, not just yo
 sequences will be present in the alignment.
 You can DOWNLOAD (click to view, right click to save as) the alignment file for downstream use in sequence programs, etc.
 
-# Construct tree (candidate domains + blast matches + reference domains)
+# 6 -  Construct tree (candidate domains + blast matches + reference domains)
 Select the query domain hits that you would like to build a tree with. You can either build a tree with: 
 ● Closest database matches to your selected sequences, ie. - of selected queries + closest database references
 ● All classified KS domains which would be the # of selected queries + all 414 NaPDoS2 database reference sequences.
 ● The estimated time to calculate the trees is given, usually the time to complete the trees is much faster than estimated.
 
 
-# Constructing a tree to estimate biosynthetic novelty of domain hits
+# 7 - Constructing a tree to estimate biosynthetic novelty of domain hits
 ● Our goal of this tutorial was to find the salinosporamide biosynthetic KS domains in Salinispora tropica CNB-440 and assess how closely related it is to other biosynthetically characterized KSs in the NaPDoS2 database.
 Therefore, searching through the table, we see that there were 2 hits to the “salinosporamide_KS01_cisloading” and “salinosporamide_KS02_cisHybridKS”
 domains in our genome. We will select these 2 sequences to construct a tree.
@@ -106,20 +106,4 @@ The Tree results page has two options for viewing the calculated trees:
 ■ Newick format (plain text file), click DOWNLOAD to view, right click to save
 ● This file format can be viewed in tree viewing programs like FigTree, iTol, TreeViewer, ETE Toolkit, etc.
 
-● We are interested in the salC KS domain that clades separately from other type 1 cis-AT hybrid KS pathways and was recently found to perform a unique function for a KS domain in Bauman et al. Nat Chem Biol. 2022. We see that WP11904930.1 (protein Salinispora tropica CNB-440 genome) and “NC 009380.15 1323 56 4720” (nucleic acid Salinispora tropica CNB-440 genome) are classified as type 1 cis-AT hybrid KSs and clade with the salC homolog in the cinnabaramide BGC.
 
-#
-
-To determine how closely related this salC “hybrid KS” domain is to other domains, we will re-run our NaPDoS2 analysis, but this time, use the query
-domain hit to:
-■ 1) identify other potential homologs via NCBI BLASTP
-■ 2) run all homologs and the original salC query hit through NaPDoS2 to
-detect and classify the domains and
-■ 3) construct a tree to assess the relatedness of salC, close homologs, and
-known KS domains in the NaPDoS2 database.
-● 1) To identify other potential salC homologs, we will select the WP11904930.1
-(protein Salinispora tropica CNB-440 genome) and “NC 009380.1 5 1323 56
-4720” (nucleic acid Salinispora tropica CNB-440 genome) which are the query
-hits with the closest database match of “salinosporamide_KS02_cisHybridKS”.
-Output the selected sequences as an amino acid, and copy and paste into NCBI
-BLASTP search query box. Click BLAST.
