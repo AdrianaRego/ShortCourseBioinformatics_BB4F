@@ -2,7 +2,8 @@
 This exercise corresponds to the tutorial example Genome tutorial A from the NaPDoS2 [documentation](https://npdomainseeker.sdsc.edu/napdos2/np2_documentation.pdf).
 
 Genome tutorial objective
-Analyze a single bacterial genome Salinispora tropica CNB-440 to uncover the unique salC KS domain, which clades separately from other KS domains and thus likely represents a novel biosynthetic class of KS (as reported in Bauman et al. Nat Chem Biol. 2022)
+Analyze a single bacterial genome Salinispora tropica CNB-440 to uncover the unique salC KS domain, which clades separately from other KS domains and thus likely represents a novel biosynthetic class of KS (as reported in Bauman et al. Nat Chem Biol. 2022[(https://pmc.ncbi.nlm.nih.gov/articles/PMC9058210/)]
+![image](https://github.com/user-attachments/assets/565df2a7-240c-4553-a352-5950f2f7348e)
 
 1 - Start by downloading the [Salinispora tropica CNB-440 genome](https://github.com/AdrianaRego/ShortCourseBioinformatics_BB4F/blob/main/GCF_000016425.1_ASM1642v1_genomic.fna). 
  2 - Open NaPDoS2 and navigate to the “Run Analysis” tab. Select “Domain Type: KS domains”.
