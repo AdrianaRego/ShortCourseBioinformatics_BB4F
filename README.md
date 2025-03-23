@@ -17,10 +17,10 @@ Time         | Topic         | Instructor    |
  Day 2 - 18th 
 Time         | Topic         | Instructor    |
    --------- | ------------- | ------------- |
-   9h    |  Phylogenetic approaches for NPs discovery |  Hans Singh  |    
+   9h    |  [Phylogenetic approaches for NPs discovery](http://github.com/AdrianaRego/ShortCourseBioinformatics_BB4F/blob/main/napdos2_talk.pdf) [Hands-on session](https://github.com/AdrianaRego/ShortCourseBioinformatics_BB4F/blob/main/Hands_on_session_NaPDoS2.md)|  Hans Singh  |    
   11h        | [Hands-on session BiG-SCAPE](https://github.com/CatarinaCarolina/Genome-Mining-2025?tab=readme-ov-file)  | Catarina Loureiro |
 14/15h30	    | Computational protein structure prediction, molecular docking | Arménio Barbosa
-16h          | EFI-SSN and Sequence-Based Functional Prediction in Enzyme Discovery | Raquel Castelo Branco
+16h          | [EFI-SSN and Sequence-Based Functional Prediction in Enzyme Discovery](https://github.com/AdrianaRego/ShortCourseBioinformatics_BB4F/blob/main/RCB_EFI_SSN_presentation_v2.pdf) | Raquel Castelo Branco
 
 
 
